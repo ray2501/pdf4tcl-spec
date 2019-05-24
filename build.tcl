@@ -1,8 +1,8 @@
 #!/usr/bin/tclsh
 
 set arch "noarch"
-set base "pdf4tcl091"
-set fileurl "https://sourceforge.net/projects/pdf4tcl/files/pdf4tcl091.tar.gz"
+set base "pdf4tcl092"
+set fileurl "https://sourceforge.net/projects/pdf4tcl/files/pdf4tcl092.tar.gz"
 
 set var [list wget $fileurl -O $base.tar.gz]
 exec >@stdout 2>@stderr {*}$var
